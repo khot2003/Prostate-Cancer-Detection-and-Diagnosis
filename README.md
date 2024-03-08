@@ -16,13 +16,6 @@ To deploy this project we used framework called Flask
 
   Flask: Facilitated the creation of a robust web server, enabling seamless communication between the frontend and the backend machine learning model
  
-
-
-## Screenshots
-
-
-
-
 ## Documentation
 
 ### Introduction:
@@ -35,7 +28,7 @@ pelvis. Early detection and diagnosis can effectively prevent Prostate cancer fr
 developing into advanced metastatic cancer and can improve the survival rate of
 patients.
 
-### Model Architecture
+### Model Architecture:
 Gan Architecture: Gan consists of a generator and  a discriminator Both models undergo training. The generator takes latent noise vector and produces a batch of samples.This batch of samples along with the real examples
 from the dataset, are presented to the discriminator. The discriminator classifies these samples as either real or fake.Subsequently, the discriminator is updated to enhance its ability to discriminate between real and fake samples with each iteration. Simultaneously, the generator keeps on  improving based on the discriminator’s feedback and is able to generate realistic fake samples.
 
@@ -48,12 +41,23 @@ The generated Image smaples by Gan with original samples from dataset are give t
 
 
 
-### Conculsion
+### Conculsion:
 In addressing the challenge of improving prostate cancer detection and diagnosis, our solution revolves around the development of a computer-aided diagnostics system using multimodel dataset that encompasses diverse patient information, including medical histories and scans. Employing generative adversarial neural networks (GANs), we introduced synthetic images to improve the model’s learning, enhancing its ability to learn deep representations. This was followed by performing  the task of binary classification by fine tuned VGG16 classifier for detection of Prostate Cancer.
 
 
 ## Demo
-![fornt](https://github.com/khot2003/Prostate-cancer-Detection/assets/105428024/b4238b3a-0713-4ecc-aedd-573553b43e93)
+![fornt](https://github.com/khot2003/Prostate-cancer-Detection/assets/105428024/b4238b3a-0713-4ecc-aedd-573553b43e93)  ![input2](https://github.com/khot2003/Prostate-cancer-Detection/assets/105428024/2ccedb18-a6a7-4820-9f21-f0c55ea0fe19)
+
+#### Result 1
+![result1](https://github.com/khot2003/Prostate-cancer-Detection/assets/105428024/445162ab-af53-4bdd-9a9d-58515929a107)
+
+#### Result 2
+![result2](https://github.com/khot2003/Prostate-cancer-Detection/assets/105428024/8e8f6db2-5d6a-4875-95af-338d978acc94)
+
+
+
+
+
 
 
 
