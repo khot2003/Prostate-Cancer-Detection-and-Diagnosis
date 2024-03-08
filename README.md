@@ -53,6 +53,8 @@ In addressing the challenge of improving prostate cancer detection and diagnosis
 
 
 ## Demo
+![fornt](https://github.com/khot2003/Prostate-cancer-Detection/assets/105428024/b4238b3a-0713-4ecc-aedd-573553b43e93)
+
 
 
 
