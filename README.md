@@ -1,5 +1,5 @@
 
-# Prostate cancer detection and Daignosis using Deep learning models
+# Prostate cancer detection and Diagnosis using Deep learning models
 
 The goal of our project was to develop  a computer aided diagnosis system for prostate cancer
 detection using multimodal diagnostic data .Since manually diagnosis of prostate
